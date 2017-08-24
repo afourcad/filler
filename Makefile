@@ -10,13 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= afourcd.filler
+NAME	= afourcad.filler
 
 SRCDIR	= srcs
 OBJDIR	= objs
 INCDIR	= includes
 
-SRCNAM	=
+SRCNAM	= filler.c ft_get_player.c ft_parsing.c\
 
 SRC		= $(SRCNAM:%=$(SRCDIR)/%)
 OBJ		= $(SRC:$(SRCDIR)/%.c=$(OBJDIR)/%.o)

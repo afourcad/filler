@@ -55,7 +55,7 @@ LIBFTNAM	= ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
 	  ft_utf8_len.c ft_uitoa.c ft_abs.c ft_itoa_base.c ft_print_bit.c\
 	  ft_strfree.c ft_str_multi_free.c get_next_line.c gnl.c\
 	  ft_isonly_digit.c ft_isonly_alpha.c ft_isonly_ascii.c\
-	  ft_beg_memadd.c ft_beg_memcpy.c ft_beg_memmove.\
+	  ft_beg_memadd.c ft_beg_memcpy.c ft_beg_memmove.c\
 
 GIT	= README.md
 
