@@ -17,18 +17,22 @@
 int	ft_get_player(void)
 {
 	char	*line;
+	char	*tmp;
 	int		player;
 	
 	player = 0;
+	line = NULL;
+	tmp = NULL;
 	while (get_next_line(0, &line))
 	{
-		if ((line = ft_strstr(line, " p1 : [players/")))
+		if ((tmp = ft_strstr(line, " p1 : [players/")))
 		{
-			player = ft_strcmp(line, "afourcad");
+			player = ft_strcmp(tmp, "afourcad");
 			free(line);
 			return (player == 1 ? 1 : 2);
 		}
 		free(line);
+		line = NULL;
 	}
 	return (0);
 }
